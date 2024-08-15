@@ -1,4 +1,6 @@
 import Buttons from "./Buttons"
+import img1 from '../assets/oishen.github.io_interior_ (2).png'
+import img2 from '../assets/yorkmars.000webhostapp.com_ (1).png'
 
 const Service = ({service}) => {
     return (
@@ -41,14 +43,14 @@ const Service = ({service}) => {
                                 <div className="row">
                                     <div className="col-3">
                                         <a href="https://oishen.github.io/interior/">
-                                            <img src="../src/assets/oishen.github.io_interior_ (2).png" alt="interior website" />
+                                            <img src={img1} alt="interior website" />
                                         </a>
                                         <p>Show about your company</p>
                                     </div>
 
                                     <div className="col-3">
                                         <a href="https://yorkmars.000webhostapp.com/">
-                                            <img src="../src/assets/yorkmars.000webhostapp.com_ (1).png" alt="full stack website" />
+                                            <img src={img2} alt="full stack website" />
                                         </a>
                                         <p>Build a full stack website</p>
                                     </div>

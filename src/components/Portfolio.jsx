@@ -42,7 +42,7 @@ const Portfolio = ({portfolio}) => {
                             <div class="modal-body">
                                 <div className="row">
                                     <div className="col-3">
-                                        <img src="../assets/oishen.github.io_interior_ (2).png" alt="interior website" />
+                                        <img src={img3} alt="interior website" />
                                         <p>Show about your company</p>
                                     </div>
 
