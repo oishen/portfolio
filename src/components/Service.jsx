@@ -62,18 +62,18 @@ const Service = ({service}) => {
                 </div>
 
                 {/* The Modal */}
-                <div class="modal fade text-dark" id="uiId">
-                    <div class="modal-dialog modal-fullscreen-xxl-down">
-                        <div class="modal-content">
+                <div className="modal fade text-dark" id="uiId">
+                    <div className="modal-dialog modal-fullscreen-xxl-down">
+                        <div className="modal-content">
 
                             {/* Modal Header */}
-                            <div class="modal-header">
-                                <h4 class="modal-title">UX/UI</h4>   
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            <div className="modal-header">
+                                <h4 className="modal-title">UX/UI</h4>   
+                                <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
                             </div>
 
                             {/* Modal body */}
-                            <div class="modal-body">
+                            <div className="modal-body">
                                 
                             </div>
 

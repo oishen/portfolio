@@ -28,18 +28,18 @@ const Portfolio = ({portfolio}) => {
                 </div>
 
                 {/* The Modal */}
-                <div class="modal fade text-dark" id="webId">
-                    <div class="modal-dialog modal-fullscreen-xxl-down">
-                        <div class="modal-content">
+                <div className="modal fade text-dark" id="webId">
+                    <div className="modal-dialog modal-fullscreen-xxl-down">
+                        <div className="modal-content">
 
                             {/* Modal Header */}
-                            <div class="modal-header">
-                                <h4 class="modal-title">Web Development</h4>   
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            <div className="modal-header">
+                                <h4 className="modal-title">Web Development</h4>   
+                                <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
                             </div>
 
                             {/* Modal body */}
-                            <div class="modal-body">
+                            <div className="modal-body">
                                 <div className="row">
                                     <div className="col-3">
                                         <img src={img3} alt="interior website" />
