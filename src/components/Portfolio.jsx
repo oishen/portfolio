@@ -42,7 +42,7 @@ const Portfolio = ({portfolio}) => {
                             <div className="modal-body">
                                 <div className="row">
                                     <div className="col-3">
-                                        <img src={img3} alt="interior website" />
+                                        <img src={img1} alt="interior website" />
                                         <p>Show about your company</p>
                                     </div>
 
