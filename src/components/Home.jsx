@@ -6,7 +6,7 @@ const Home = ({home}) => {
                 <div className="container-lg p-lg-5 justify-content-center align-items-center d-flex" id="box">
                     <div className="row justify-content-center align-items-center">
                         <div className="col-lg-7">
-                            <div className="d-flex">
+                            <div className="d-flex justify-content-between">
                                 <div>
                                     <h4 className="h4" >Hello I Am</h4>
                                     <h2 className="h2">SOY SEN</h2>

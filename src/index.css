@@ -78,6 +78,11 @@ span{
     font-size: 30px;
     padding-bottom: 20px;
 }
+#line{
+    background-color: aliceblue;
+    width: 25px;
+    height: 2px;
+}
 
 
 @media only screen and (max-width: 992px){

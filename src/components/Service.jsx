@@ -10,15 +10,15 @@ const Service = ({service}) => {
                     <div>
                         <h2 className="h2 text-center pb-3">Our <span>SERVICES</span></h2>
                         <div className="row justify-content-center align-items-center gap-5 ">
-                            <div className="col-lg col-md-12 text-center border border-danger rounded-5 p-5">
-                                <i class="fa-solid fa-code" id="serIcon" ></i>
+                            <div className="col-lg col-md-12 text-center border border-danger rounded-5 p-lg-5 p-3">
+                                <i className="fa-solid fa-code" id="serIcon" ></i>
                                 <h4 className="h4">Web Development</h4>
                                 <p>Web development involves the creation and maintenance of websites. It encompasses several aspects including web design, web content development, client-side/server-side scripting, and network security configuration. It ensures that websites are functional, user-friendly, and visually appealing.</p>
                                 <Buttons modalId="#webId" />
                             </div>
 
-                            <div className="col-lg col-md-12 text-center border border-danger rounded-5 p-5">
-                                <i class="fa-solid fa-wand-magic-sparkles" id="serIcon"></i>
+                            <div className="col-lg col-md-12 text-center border border-danger rounded-5 p-lg-5 p-3">
+                                <i className="fa-solid fa-wand-magic-sparkles" id="serIcon"></i>
                                 <h4 className="h4">UX/UI</h4>
                                 <p>UX (User Experience) design aims to enhance user satisfaction by improving the usability, accessibility, and pleasure provided in the interaction with a product. UI (User Interface) design involves the look and layout of a product, ensuring it is both aesthetically pleasing and easy to navigate.</p>
                                 <Buttons modalId="#uiId" />
@@ -28,18 +28,18 @@ const Service = ({service}) => {
                 </div>
 
                 {/* The Modal */}
-                <div class="modal fade text-dark" id="webId">
-                    <div class="modal-dialog modal-fullscreen-xxl-down">
-                        <div class="modal-content">
+                <div className="modal fade text-dark" id="webId">
+                    <div className="modal-dialog modal-fullscreen-xxl-down">
+                        <div className="modal-content">
 
                             {/* Modal Header */}
-                            <div class="modal-header">
-                                <h4 class="modal-title">Web Development</h4>   
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            <div className="modal-header">
+                                <h4 className="modal-title">Web Development</h4>   
+                                <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
                             </div>
 
                             {/* Modal body */}
-                            <div class="modal-body">
+                            <div className="modal-body">
                                 <div className="row">
                                     <div className="col-3">
                                         <a href="https://oishen.github.io/interior/">

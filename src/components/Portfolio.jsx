@@ -10,18 +10,19 @@ const Portfolio = ({portfolio}) => {
                 <div className="container-lg p-lg-5 justify-content-center align-items-center d-flex" id="box">
                     <div className="text-center" >
                         <h2 className="h2 text-center pb-3">Our <span>PROJECTS</span></h2>
-                        <div className="row justify-content-center align-items-center gap-5 pb-5 ">
-                            <div className="col-3">
+                        <div className="row align-items-center pb-5 ">
+                            <div className="col-sm-3 col-4">
                                 <a href="https://oishen.github.io/interior/"  >
                                     <img src={img1} alt="interior website" />
                                 </a>
                             </div>
 
-                            <div className="col-3">
+                            <div className="col-sm-3 col-4">
                                 <a href="https://yorkmars.000webhostapp.com/">
                                     <img src={img2} alt="full stack website" />
                                 </a>
                             </div>
+
                         </div>
                         <Buttons modalId="#webId" />
                     </div>
