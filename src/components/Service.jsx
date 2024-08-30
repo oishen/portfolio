@@ -1,6 +1,7 @@
 import Buttons from "./Buttons"
 import img1 from '../assets/oishen.github.io_interior_ (2).png'
 import img2 from '../assets/yorkmars.000webhostapp.com_ (1).png'
+import img3 from '../assets/oishen.github.io_k-shop_ (1).png'
 
 const Service = ({service}) => {
     return (
@@ -53,6 +54,13 @@ const Service = ({service}) => {
                                             <img src={img2} alt="full stack website" />
                                         </a>
                                         <p>Build a full stack website</p>
+                                    </div>
+
+                                    <div className="col-3">
+                                        <a href="https://oishen.github.io/k-shop/">
+                                            <img src={img3} alt="ecommerce website" />
+                                        </a>
+                                        <p>ecommerce website</p>
                                     </div>
                                 </div>
                             </div>
