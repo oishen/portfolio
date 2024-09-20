@@ -11,7 +11,7 @@ const Contact = ({contact}) => {
                             <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out to me through any of the contact methods below:</p>
                         </div>
                         <div className="col-md-6">
-                            <div className="text-center d-flex pb-2">
+                            <div className="d-flex pb-2">
                                 <i className="fa-solid fa-location-crosshairs" id="icon"></i>
                                 <p>Borey 100 Knong Village, Tuek Thla Commune, SenSok District, Phnom Penh City.</p>
                             </div>
