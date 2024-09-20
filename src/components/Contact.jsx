@@ -13,7 +13,7 @@ const Contact = ({contact}) => {
                         <div className="col-md-6">
                             <div className="text-center d-flex pb-2">
                                 <i className="fa-solid fa-location-crosshairs" id="icon"></i>
-                                <p>Prek Ambel Village, Prek Ambel Commune, Sang District, Kandal Provice</p>
+                                <p>Borey 100 Knong Village, Tuek Thla Commune, SenSok District, Phnom Penh City.</p>
                             </div>
                             <div className="text-center d-flex">
                                 <i className="fa-solid fa-phone" id="icon"></i>

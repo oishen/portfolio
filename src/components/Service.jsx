@@ -43,8 +43,8 @@ const Service = ({service}) => {
                             <div className="modal-body">
                                 <div className="row">
                                     <div className="col-3">
-                                        <a href="https://oishen.github.io/interior/">
-                                            <img src={img1} alt="interior website" />
+                                        <a href="https://oishen.github.io/interior/" id="webImg">
+                                             <img src={img1} alt="full stack website" />
                                         </a>
                                         <p>Show about your company</p>
                                     </div>
